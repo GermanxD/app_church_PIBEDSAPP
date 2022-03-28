@@ -1,0 +1,40 @@
+name: selectable_navigation_drawer_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  provider: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: 
+
+flutter_icons:
+  android: 'launcher_icon'
+  ios: true
+  image_path: 'assets/icon/pibedslogopng.png'
+  adaptive_icon_background: 'assets/icon/pibedslogopng.png'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  
+  fonts:
+    - family: AndadaPro
+      fonts:
+        - asset: assets/fonts/AndadaPro-Italic-VariableFont_wght.ttf
+
+    - family: RobotoBlack
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Black.ttf
+    
+  
